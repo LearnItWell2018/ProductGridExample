@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="col-md-5">
+     <app-recipes-list ></app-recipes-list>
+  </div>
+  <div class="col-md-7">
+   <!--   <app-recipes-details *ngIf='bigScreenRecipe;else requestClick' [bigScreenRecipe]='bigScreenRecipe'></app-recipes-details>
+     <ng-template #requestClick>
+       <h2>Please click on Menu list For Details</h2>
+     </ng-template>  --> 
+     <router-outlet></router-outlet>
+    </div>
+</div>
